@@ -4,8 +4,7 @@ import "./Ranking.css";
 const Ranking = () => {
   return (
     <div className="ranking">
-      <div className="rankingheading"><p>Leader Board</p>
-      <p className="rankingheadinginn"><i>Coming Soon!!</i></p></div>
+      <div className="rankingheading"><p>Leader Board</p></div>
       <div className="ranking-container">
         <div className="box-container container-2">
           <div className="title title-1">
@@ -14,8 +13,8 @@ const Ranking = () => {
           <div className="box">
             <div className="box-data">
               <div className="box-credential">
-                <h2 className="box-name">______</h2>
-                <h2>________</h2>
+                <h2 className="box-name">Avijit Swain </h2>
+                <h2 className="box-name">Anisha Mahanty</h2>
               </div>
             </div>
             <div className="underlay underlay-2"></div>
@@ -30,8 +29,8 @@ const Ranking = () => {
           <div className="box">
             <div className="box-data">
               <div className="box-credential">
-                <h2 className="box-name">______</h2>
-                <h2>________</h2>
+                <h2 className="box-name">Vaibhab Singh</h2>
+                <h2 className="box-name">Yuvraj Preet</h2>
               </div>
             </div>
             <div className="underlay underlay-1"></div>
@@ -45,8 +44,8 @@ const Ranking = () => {
           <div className="box">
             <div className="box-data">
               <div className="box-credential">
-                <h2 className="box-name">______</h2>
-                <h2>________</h2>
+                <h2 className="box-name">Janbhi Tripathy </h2>
+                <h2 className="box-name">Fiona Dash</h2>
               </div>
             </div>
             <div className="underlay underlay-3"></div>
@@ -54,6 +53,7 @@ const Ranking = () => {
         </div>
       </div>
     </div>
+    
   );
 };
 
